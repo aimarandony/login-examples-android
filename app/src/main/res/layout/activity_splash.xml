@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorBlack"
+        android:background="@drawable/bg_gradient"
         tools:context=".SplashActivity">
     <LinearLayout
             android:orientation="vertical"
@@ -18,10 +18,10 @@
 
         <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" app:srcCompat="@drawable/logo" android:id="@+id/imageView"/>
+                android:layout_height="wrap_content" app:srcCompat="@drawable/gif_logo" android:id="@+id/imageView"/>
         <TextView
                 android:text="WELCOME"
-                android:textColor="#fff"
+                android:textColor="#000901"
                 android:textAlignment="center"
                 android:textSize="20dp"
                 android:textFontWeight="800"
